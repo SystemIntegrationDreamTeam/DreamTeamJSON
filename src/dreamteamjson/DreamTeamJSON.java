@@ -40,7 +40,6 @@ public class DreamTeamJSON {
         
     ConnectionFactory factory = new ConnectionFactory();
     factory.setHost("datdb.cphbusiness.dk");
-    factory.setVirtualHost("student");
     factory.setUsername("Dreamteam");
     factory.setPassword("bastian");
     Connection connection = factory.newConnection();
